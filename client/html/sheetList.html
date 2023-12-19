@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+
+<head>
+<title>Sheet List</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+<link rel="stylesheet" href="client/css/sheetstyle.css">
+<button onclick= "window.location.href= '/home'"> Home </button>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="/client/js/config.js"></script>
+<script src='/client/js/sheetList.js' async></script>
+
+<!--
+<a href="/client/html/template.html" id="browse-router" class="btn btn-sm edit_btn">Add Record</a>
+-->
+
+<br><br>
+    Sheet List
+
+</head>
+
+</head>
+
+<main class="page-content">
+    <div class="col-xs-11">
+        <table id="libraryTableContainer" class="tablesorter">
+            <colgroup>
+                <col class=''>
+            </colgroup>
+            <thead>
+                <tr class='table-headerRow'>
+                    <th >Character Type</th>
+                    <th>Name</th>
+                    <th>Alias</th>
+                    <th>Allegance</th>
+                    <th>Voice Actors</th>
+                    <th>Background</th>
+                    <th>Significance</th>
+                    <th>Lore</th>
+                    <!-- <th class="text-center"></th> -->
+                </tr>
+            </thead>
+            <tbody id='libraryTable'></tbody>
+        </table>
+    </div>
+</main>
+
+<body>
+    <br>
+    Sheet List
+    <br><br><br><br><br>
+    <a href="#" class="previous round">&#8249;</a>
+    <a href="#" class="next round">&#8250;</a>
+
+</body>
+</html>

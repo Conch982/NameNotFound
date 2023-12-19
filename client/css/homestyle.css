@@ -1,0 +1,49 @@
+/*Home Page*/
+
+body {
+    
+    background-color:rgb(179, 176, 176);
+    background-image: url("backg2.webp");
+    margin-left: 5%;
+    margin-right: 5%;
+    border: 2px groove gray;
+    padding: 10px 10px 10px 10px;
+    /*font-family: "handJet", sans-serif;*/
+}
+
+.button1{
+    /* Log In */
+    text-align: right;
+
+}
+
+h2{ 
+    /*Tittle*/
+    font-family: "handJet", sans-serif;
+    font-size: 50px;
+}
+
+h3{
+    font-family: "handJet", sans-serif;
+    font-size: 33px;
+}
+
+h5{
+    font-size: 33px;
+}
+
+input, text { 
+
+    width: 70%; 
+    height: 50%; 
+}
+
+p2{
+    font-family: sans-serif;
+}
+
+button{
+    font-family: "Buda", sans-serif;
+}
+
+

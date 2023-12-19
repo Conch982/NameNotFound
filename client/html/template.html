@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sheet Template</title>
+
+        <!--
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Buda:wght@300&family=Handjet&family=Noto+Sans+Georgian&display=swap" rel="stylesheet">
+
+        -->
+
+        <button onclick= "window.location.href= '/home'"> Home </button>
+    
+        <meta name "description" content="A template to create a Sheet">
+        <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="client/css/temp.css">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="/client/js/config.js"></script>
+        <script src="client/js/temp.js"> </script>
+        
+
+
+    </head>
+
+    <body>
+        <br><br><b>Template:
+
+        <h1>
+            
+
+            <form>
+<!--
+                    <center>
+                <input type="radio" id="chara_type" name="chara_type" value="Hero">
+                <label for="hero">Hero</label><br>
+                <input type="radio" id="chara_type" name="chara_type" value="Neutral">
+                <label for="neutral">Neutral</label><br>
+                <input type="radio" id="chara_type" name="chara_type" value="Villain">
+                <label for="villain">Villain</label>
+                     </center>
+-->
+
+                <label for="cName">Name:</label>
+                <input type="text" id="cName" name="cName">
+            
+                <br><br>
+                <label for="alias">Alias:</label>
+                <input type="text" id="alias" name="alias">
+
+                <br><br>
+                <label for="allegance">Allegance:</label>
+                <input type="text" id="allegance" name="allegance">
+
+                <br><br>
+                <label for="voiceActors">Voice Actors:</label>
+                <input type="text" id="voiceActors" name="voiceActors">
+                
+                
+                <br><br><br><br>
+                <div class="input-group"></div>
+                <label for = "background"> Background</label><br>
+                <textarea id="background" name="background" rows= 10"></textarea>
+
+                <label for = "significance"> Significance</label><br>
+                <textarea id="significance" name="significance" rows= 10"></textarea>
+
+                <label for = "lore"> Lore</label><br>
+                <textarea id="lore" name="lore" rows= 10"></textarea>
+
+            </div>
+<!--
+            <div id="save_button" class="btn-group-variant config-buttons">
+                <div id="data-submit" class="btn btn-sm edit_btn">Submit</div>
+-->
+
+            <button id="data-submit"> save</button>
+
+            </form>
+
+           <!-- <form info="event.preventDefault(); saveInfoToSQL();"></form>-->
+
+        </h1>
+
+    </body>
+
+
+    </html>
